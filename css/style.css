@@ -1,5 +1,10 @@
+/* Styling for Nav bar*/
 .branding{
     font-size: 17px;
+}
+
+.fa {
+    font-size: 20px;
 }
 
 /* Styling for intro */
@@ -29,4 +34,10 @@
     margin: auto;
     border-width: 3px;
     border-color: #f44336;
+}
+
+/* Styling for sections*/
+
+.section {
+    padding: 40px 0px;
 }
