@@ -15,6 +15,17 @@
     height: 600px;
     padding: 140px 100px;
     color: #fff;
+    margin-top: 20px;
+}
+
+/* Styling for resume section */
+.resume{
+    background: url('../img/resume.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    padding: 140px 100px;
+    color: #fff;
 }
 
 /* Styling for text and separation bar in intro*/
@@ -33,11 +44,17 @@
     width: 100px;
     margin: auto;
     border-width: 3px;
-    border-color: #f44336;
+    border-color: teal;
 }
 
 /* Styling for sections*/
 
 .section {
     padding: 40px 0px;
+}
+
+/* Styling for images */
+.section img {
+    width: 300px;
+    padding: 5px;
 }
