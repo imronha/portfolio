@@ -1,13 +1,17 @@
-/* Styling for Nav bar*/
-.branding{
-    font-size: 17px;
+Styling for nav bar .branding {
+  font-size: 17px;
 }
 
 .fa {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-/* Styling for intro */
+.parallax-window {
+  min-height: 500px;
+  background: transparent;
+}
+
+/* Styling for intro
 .intro{
     background: url('../img/intro.jpg');
     background-position: center;
@@ -18,7 +22,7 @@
     margin-top: 20px;
 }
 
-/* Styling for resume section */
+Styling for resume section
 .resume{
     background: url('../img/resume.jpg');
     background-position: center;
@@ -26,35 +30,42 @@
     height: 600px;
     padding: 140px 100px;
     color: #fff;
-}
+} */
 
 /* Styling for text and separation bar in intro*/
-.intro h2{
-    font-size: 40px;
-    font-weight: 700;
-    text-transform: uppercase;
+.intro {
+  color: white;
+}
+.intro h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
-.intro p{
-    font-size: 16px;
-    padding-bottom: 20px;
+.intro p {
+  font-size: 16px;
+  padding-bottom: 20px;
 }
 
-.intro hr{
-    width: 100px;
-    margin: auto;
-    border-width: 3px;
-    border-color: teal;
+.intro hr {
+  width: 100px;
+  margin: auto;
+  border-width: 3px;
+  border-color: teal;
+}
+
+.intro div {
+  padding-top: 70px;
 }
 
 /* Styling for sections*/
 
 .section {
-    padding: 40px 0px;
+  padding: 40px 0px;
 }
 
 /* Styling for images */
 .section img {
-    width: 300px;
-    padding: 5px;
+  width: 300px;
+  padding: 5px;
 }
